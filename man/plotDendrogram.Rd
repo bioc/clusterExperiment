@@ -87,7 +87,7 @@ colors will be assigned internally for sample data and pull from the
 }
 \value{
 A dendrogram is plotted. Returns (invisibly) a list with elements
-\itemize{
+\describe{
 \item{\code{plottedObject}}{ the \code{phylo} object that is plotted.}
 \item{\code{originalObject}}{ the \code{phylo} object before adjusting the
 node/tip labels. }

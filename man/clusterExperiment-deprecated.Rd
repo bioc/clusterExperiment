@@ -21,7 +21,7 @@ These functions are provided for compatibility with older versions
 The following functions are deprecated and will be made defunct; use
   the replacement indicated below:
  \itemize{
-   \item{\code{combineMany}: \code{\link{makeConsensus}}}
-   \item{\code{removeUnclustered}: \code{\link{removeUnassigned}}}
+   \item \code{combineMany}: \code{\link{makeConsensus}}
+   \item \code{removeUnclustered}: \code{\link{removeUnassigned}}
  }
 }

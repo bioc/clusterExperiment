@@ -75,7 +75,7 @@ messages regarding checking the internal consistency of the parameters.}
 }
 \value{
 A list with values
-\itemize{
+\describe{
 
 \item{\code{clustering}}{ a vector of length equal to nrows(x) giving the
 integer-valued cluster ids for each sample. The integer values are assigned

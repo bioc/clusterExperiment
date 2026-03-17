@@ -84,7 +84,7 @@ arguments will be ignored without warning.}
 If \code{returnData=FALSE}, mainClustering returns a vector of cluster assignments (if
   format="vector") or a list of indices for each cluster (if format="list").
   Clusters less than minSize are removed. If \code{returnData=TRUE}, then mainClustering returns a list
-\itemize{
+\describe{
 \item{results}{The clusterings of each sample.}
 \item{inputMatrix}{The input matrix given to argument \code{inputMatrix}. Useful if input is result of subsampling, in which case input is the set of clusterings found over subsampling.}
 }
@@ -103,7 +103,7 @@ Given input data, this function will try to find the clusters
 Post-processing Arguments: For post-processing the clustering,
   currently only type 'K' algorithms have a defined post-processing.
   Specifically
-\itemize{
+\describe{
  \item{"findBestK"}{logical, whether should find best K based on average
   silhouette width (only used if clusterFunction of type "K").}
  \item{"kRange"}{vector of integers to try for k values if findBestK=TRUE. If

@@ -51,7 +51,7 @@ be input into linear model on samples that excludes -1.}
 }
 \value{
 List with components:
-\itemize{ 
+\describe{
 \item{\code{contrastMatrix}}{ Contrast matrix, the form of which
 depends on \code{outputType}. If \code{outputType=="limma"}, the result of
 running \code{\link{makeContrasts}}: a matrix with number of columns equal to

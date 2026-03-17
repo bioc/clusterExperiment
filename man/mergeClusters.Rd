@@ -182,7 +182,7 @@ corresponding to the original clustering ids. See return value for details.}
 }
 \value{
 If `x` is a matrix, it returns (invisibly) a list with elements
-\itemize{ 
+\describe{
 \item{\code{clustering}}{ a vector of length equal to ncol(x) giving
 the integer-valued cluster ids for each sample. "-1" indicates the sample was
 not clustered.} 
@@ -220,7 +220,7 @@ If `x` is a \code{\link{ClusterExperiment}}, it returns a new
 
 \code{nodeMergeInfo} returns information collected about the nodes
   during merging as a data.frame with the following entries:
-\itemize{ \item{\code{Node}}{ Name of the node}
+\describe{ \item{\code{Node}}{ Name of the node}
 \item{\code{Contrast}}{The
 contrast compared at each node, in terms of the cluster ids}
 \item{\code{isMerged}}{ Logical as to whether samples from that node which were

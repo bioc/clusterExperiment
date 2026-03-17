@@ -136,7 +136,7 @@ A \code{\link{ClusterExperiment}} object if
   \code{inputType} is of type "X".
 
 If input was not of type "X", then the result is a list with values
-  \itemize{ 
+  \describe{
        \item{clustering: }{The vector of clustering results}
        \item{clusterInfo: }{A list with information about the parameters run in
   the clustering} 
@@ -172,7 +172,7 @@ Unlike \code{\link{clusterMany}}, most of the relevant arguments for
 Only certain combinations of parameters are possible for certain
   choices of \code{sequential} and \code{subsample}. These restrictions are
   documented below. 
-  \itemize{ 
+  \describe{
       \item{\code{clusterFunction} for
   \code{mainClusterArgs}: }{The choice of \code{subsample=TRUE} also controls
   what algorithm type of clustering functions can be used in the

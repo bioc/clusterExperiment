@@ -140,7 +140,7 @@ where to place legend.}
 }
 \value{
 \code{makeBlankData} returns a list with items 
-\itemize{
+\describe{
  \item{"dataWBlanks"}{ The data with the rows of NAs separating the given
  indices.} 
  \item{"rowNamesWBlanks"}{ A vector of characters giving the
@@ -169,7 +169,7 @@ where to place legend.}
 If \code{output="plotAndLegend"}, \code{"convertClusterLegend"} will
   return a list that provides the necessary information to color samples
   according to cluster and create a legend for it:
- \itemize{
+ \describe{
  \item{"colorVector"}{ A vector the same length as the number of samples,
  assigning a color to each cluster of the primaryCluster of the object.}
  \item{"legendNames"}{ A vector the length of the number of clusters of

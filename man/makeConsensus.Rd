@@ -80,7 +80,7 @@ be set (see vignette).}
 \code{matrix,missing}.}
 }
 \value{
-If x is a matrix, a list with values \itemize{ 
+If x is a matrix, a list with values \describe{
  \item{\code{clustering}}{ vector of cluster assignments, with "-1" implying 
  unassigned}
  

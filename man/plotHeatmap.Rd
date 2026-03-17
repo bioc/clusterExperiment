@@ -214,7 +214,7 @@ re-calculating it in the future) or not.}
 }
 \value{
 Returns (invisibly) a list with elements
-\itemize{
+\describe{
 \item{\code{aheatmapOut}}{ The output from the final call of
 \code{\link[NMF]{aheatmap}}.}
 \item{\code{colData}}{ the annotation data.frame given to the argument
@@ -291,7 +291,7 @@ If \code{data} is a matrix, then \code{colData} is a data.frame
 If \code{data} is a \code{ClusterExperiment} object,
   \code{clusterFeaturesData} is not a dataset, but instead indicates which
   features should be shown in the heatmap. In this case
-  \code{clusterFeatures} can be one of the following: \itemize{ \item{"all"}{
+  \code{clusterFeatures} can be one of the following: \describe{ \item{"all"}{
   All rows/genes will be shown} \item{character giving dimensionality
   reduction}{Should match one of values saved in \code{reducedDims} slot or a
   builtin function in \code{listBuiltInReducedDims()}. \code{nFeatures} then

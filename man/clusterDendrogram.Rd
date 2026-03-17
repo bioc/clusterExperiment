@@ -121,7 +121,7 @@ Additional requirements are made of these dendrograms to be a valid
   labels is so as to not duplicate storage of the names, see below
   descriptions for where to save user-defined names.
 
-\itemize{ 
+\describe{
 \item{Labels}{The cluster dendrogram can only have labels
   on the \emph{internal} nodes. Labels on the internal nodes of the cluster
   dendrogram can be set by the user (the function \code{nodeLabels<-} is
@@ -133,7 +133,7 @@ Additional requirements are made of these dendrograms to be a valid
 \item{Data}{ The cluster hierarchy must have
   data stored with it that has the following columns (additional ones are
   allowed):
-  \itemize{ 
+  \describe{
   \item{NodeId}{The permanent node id for the node. Must
   be of the format "NodeIdX" where "X" is a integer.} 
   \item{Position}{The
@@ -150,7 +150,7 @@ Additional requirements are made of these dendrograms to be a valid
   where "X" is the internal cluster id (see \code{\link{clusterLegend}}} } }
   }
 
-\itemize{
+\describe{
 \item{Labels}{The sample dendrogram is not allowed to have ANY labels. The
 names for those nodes that correspond to the cluster hierarchy will be pulled
 from the names in the cluster hierarchy for plotting, etc. and should be set
@@ -159,7 +159,7 @@ there (see above). Sample names for the tips of the tree will be pulled from
 \item{Data}{ 
 The cluster hierarchy must have data stored with it that has the following
 columns (additional ones are allowed):
- \itemize{
+ \describe{
   \item{NodeId}{For those nodes that correspond to a node in the cluster
   hierarchy, should have its permanent node id in this column. Other nodes
   should be NA.}

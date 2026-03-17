@@ -56,7 +56,7 @@ Documents the built-in clustering options that are available in
 \strong{Built-in clustering methods:} The built-in clustering
   methods, the names of which can be accessed by
   \code{listBuiltInFunctions()} are the following:
-\itemize{ 
+\describe{
 \item{"pam"}{Based on \code{\link[cluster]{pam}} in
   \code{cluster} package. Arguments to that function can be passed via
   \code{clusterArgs}. 

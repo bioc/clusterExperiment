@@ -66,7 +66,7 @@ The constructor \code{ClusterFunction} creates an object of the
 clusterFUN: The following arguments are required to be accepted for 
   \code{clusterFUN} -- higher-level code may pass these arguments (but the
   function can ignore them or just have be handled with a ... )
-\itemize{ 
+\describe{
 \item{"inputMatrix"}{will be the matrix of data}
 \item{"inputType"}{one of "X", "diss", or "cat".  If
   	"X", then \code{inputMatrix} is assumed to be nfeatures x nsamples (like
@@ -100,7 +100,7 @@ clusterFUN: The following arguments are required to be accepted for
 
 classifyFUN: The following arguments are required to be accepted for 
   \code{classifyFUN} (if not NULL) 
-  \itemize{ 
+  \describe{
   \item{inputMatrix}{the
   \emph{new} data that will be classified into the clusters} 
   \item{inputType}{the inputType of the new data (see above)} 
