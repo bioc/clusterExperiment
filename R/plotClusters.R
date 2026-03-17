@@ -99,7 +99,7 @@
 #' @return If \code{clusters} is a matrix, \code{plotClusters} returns
 #'   (invisibly) the orders and other things that go into making the matrix.
 #'   Specifically, a list with the following elements.
-#' \itemize{
+#' \describe{
 #'
 #' \item{\code{orderSamples}}{ a vector of length equal to 
 #' \code{nrows(clusters)} giving the order of the samples (rows) to 

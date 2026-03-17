@@ -173,7 +173,7 @@ labels.}
 If created from \code{\link{clusterSingle}}, clusterInfo will include the
 parameter used for the call, and the call itself. If \code{sequential = TRUE}
 it will also include the following components.
-\itemize{
+\describe{
 \item{\code{clusterInfo}}{if sequential=TRUE and clusters were successfully
 found, a matrix of information regarding the algorithm behavior for each
 cluster (the starting and stopping K for each cluster, and the number of

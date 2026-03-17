@@ -57,7 +57,7 @@
 #'  \code{alpha=1-proportion}, \code{minSize=minSize}, and
 #'  \code{evalClusterMethod=c("average")}. See help of 
 #'  \code{\link{mainClustering}} for more details.
-#'@return If x is a matrix, a list with values \itemize{ 
+#'@return If x is a matrix, a list with values \describe{
 #'  \item{\code{clustering}}{ vector of cluster assignments, with "-1" implying 
 #'  unassigned}
 #'  

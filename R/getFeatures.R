@@ -91,7 +91,7 @@
 #'   included as the result of running \code{\link[zinbwave]{glmWeightedF}} with
 #'   default option \code{independentFiltering = TRUE}. The following column
 #'   names are the same between all of the DE methods.
-#' \itemize{
+#' \describe{
 #'
 #' \item{\code{Feature}}{ This is the column called 'ProbeID' by
 #' \code{\link{topTable}}}

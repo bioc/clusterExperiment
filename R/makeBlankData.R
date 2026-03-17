@@ -18,7 +18,7 @@
 #'  of features.
 #'@seealso \code{\link{plotHeatmap}}
 #'@return \code{makeBlankData} returns a list with items 
-#'\itemize{
+#'\describe{
 #'  \item{"dataWBlanks"}{ The data with the rows of NAs separating the given
 #'  indices.} 
 #'  \item{"rowNamesWBlanks"}{ A vector of characters giving the
