@@ -43,7 +43,7 @@
 \arguments{
 \item{inputMatrix}{numerical matrix on which to run the clustering or a
 \code{\link[SummarizedExperiment]{SummarizedExperiment}},
-\code{\link{SingleCellExperiment}}, or \code{\link{ClusterExperiment}}
+\code{\link[SingleCellExperiment]{SingleCellExperiment}}, or \code{\link{ClusterExperiment}}
 object.}
 
 \item{...}{arguments to be passed on to the method for signature

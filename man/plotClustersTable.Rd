@@ -78,7 +78,7 @@ between 0 and 1 but no combination of the entries sum to 1.}
 depending on choice of \code{plotType}. Note that these functions take
 different arguments so that switching from one to the other may not take
 all arguments. In particular \code{bubblePlot} calls \code{plot} while
-\code{plotHeatmap} calls \code{\link{NMF}{aheatmap}}.}
+\code{plotHeatmap} calls \code{\link[NMF]{aheatmap}}.}
 
 \item{plotType}{type of plot. If "heatmap", then a heatmap will be created of
 the values of the contingency table of the two clusters (calculated as

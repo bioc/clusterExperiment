@@ -73,7 +73,7 @@ A \code{\link{ClusterExperiment}} object.
 
 \code{removeClusterings} returns a \code{ClusterExperiment} object,
   unless all clusters are removed, in which case it returns a
-  \code{\link{SingleCellExperiment}} object.
+  \code{\link[SingleCellExperiment]{SingleCellExperiment}} object.
 
 \code{subsetByCluster} subsets the object by clusters in a clustering
 and returns a ClusterExperiment object with only those samples

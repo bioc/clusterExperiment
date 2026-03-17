@@ -23,7 +23,7 @@ seqCluster(
 \arguments{
 \item{inputMatrix}{numerical matrix on which to run the clustering or a
 \code{\link[SummarizedExperiment]{SummarizedExperiment}},
-\code{\link{SingleCellExperiment}}, or \code{\link{ClusterExperiment}}
+\code{\link[SingleCellExperiment]{SingleCellExperiment}}, or \code{\link{ClusterExperiment}}
 object.}
 
 \item{inputType}{a character vector defining what type of input is given in

@@ -144,10 +144,10 @@ default. Setting \code{weights=NULL} ensures that weights will NOT be used,
 and only the standard edgeR.}
 
 \item{...}{for signature \code{matrix}, arguments passed to the 
-\code{\link{plot.phylo}} function of \code{ape} that plots the dendrogram. 
+\code{\link[ape]{plot.phylo}} function of \code{ape} that plots the dendrogram.
 For signature \code{ClusterExperiment} arguments passed to the method for 
 signature \code{matrix} and then if do not match those arguments, will be 
-passed onto \code{\link{plot.phylo}}.}
+passed onto \code{\link[ape]{plot.phylo}}.}
 
 \item{eraseOld}{logical. Only relevant if input \code{x} is of class
 \code{ClusterExperiment}. If TRUE, will erase existing workflow results
@@ -265,7 +265,7 @@ Takes an input of hierarchical clusterings of clusters and
   December 16, 2015
   (http://www.stat.cmu.edu/~jiashun/Research/software/NullandProp/). "locfdr"
   refers to the method of Efron (2004) and is implemented in the package
-  \code{\link{locfdr}}.  "adjP"
+  \code{\link[locfdr]{locfdr}}.  "adjP"
   refers to the proportion of genes that are found significant based on a FDR
   adjusted p-values (method "BH") and a cutoff of 0.05. Previous versions offered the method "MB", a method of Meinshausen and Buhlmann
   (2005), but the package  \code{howmany} is no longer supported for its implementation.

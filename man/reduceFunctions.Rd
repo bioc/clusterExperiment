@@ -216,7 +216,7 @@ columns, features in rows} }
   that are considered valid filtering statistics. Currently any numeric
   column in rowData is a valid filtering statistic.
 
-\code{makeReducedDims} returns a \code{\link{SingleCellExperiment}}
+\code{makeReducedDims} returns a \code{\link[SingleCellExperiment]{SingleCellExperiment}}
   containing the calculated dimensionality reduction in the \code{reduceDims}
   with names corresponding to the name given in \code{reducedDims}.
 }

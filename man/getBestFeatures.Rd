@@ -75,7 +75,7 @@ which is the starting point for both \code{edgeR} and \code{limma-voom}
 methods of DE. This includes normalization factors/total count values etc.}
 
 \item{...}{If \code{x} is a matrix, these are options to pass to 
-\code{\link{topTable}}  (see 
+\code{\link[limma]{topTable}}  (see
 \code{\link[limma]{limma}} package). If \code{x} is a 
 \code{ClusterExperiment} object, these arguments can also be those to pass 
 to the matrix version.}
@@ -97,7 +97,7 @@ A \code{data.frame} in the same format as
 \describe{
 
 \item{\code{Feature}}{ This is the column called 'ProbeID' by
-\code{\link{topTable}}}
+\code{\link[limma]{topTable}}}
 
 \item{\code{IndexInOriginal}}{ Gives the index of the feature to the original
 input dataset, \code{x}}
