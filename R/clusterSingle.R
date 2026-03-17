@@ -13,7 +13,7 @@
 #'   used internally for clustering of sets of clusterings.
 #' @param inputMatrix numerical matrix on which to run the clustering or a
 #'   \code{\link[SummarizedExperiment]{SummarizedExperiment}},
-#'   \code{\link{SingleCellExperiment}}, or \code{\link{ClusterExperiment}}
+#'   \code{\link[SingleCellExperiment]{SingleCellExperiment}}, or \code{\link{ClusterExperiment}}
 #'   object.
 #' @param distFunction a distance function to be applied to \code{inputMatrix}. Only
 #'   relevant if \code{inputType="X"}. 

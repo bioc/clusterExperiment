@@ -39,7 +39,7 @@
 #'   depending on choice of \code{plotType}. Note that these functions take
 #'   different arguments so that switching from one to the other may not take
 #'   all arguments. In particular \code{bubblePlot} calls \code{plot} while
-#'   \code{plotHeatmap} calls \code{\link{NMF}{aheatmap}}.
+#'   \code{plotHeatmap} calls \code{\link[NMF]{aheatmap}}.
 #' @param propTable table of proportions (\code{bubblePlot}))
 #' @param sizeTable table of sizes (only for use in \code{bubblePlot} or
 #'   \code{plotType="bubble"}). See details.

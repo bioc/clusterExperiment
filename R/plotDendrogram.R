@@ -14,7 +14,7 @@
 #'  will be plotted, along with cluster name legend. If 'id' the internal 
 #'  clusterIds value will be plotted (only appropriate if 
 #'  \code{leafType="clusters"}).
-#'@param ... arguments passed to the \code{\link{plot.phylo}} function of 
+#'@param ... arguments passed to the \code{\link[ape]{plot.phylo}} function of
 #'  \code{ape} that plots the dendrogram.
 #'@param removeOutbranch logical, only applicable if there are missing samples 
 #'  (i.e. equal to -1 or -2), \code{leafType="samples"} and the dendrogram for 
@@ -22,7 +22,7 @@
 #'  case, if this parameter is TRUE, the outbranch will not be plotted, and if 
 #'  FALSE it will be plotted.
 #'@param legend character, only applicable if \code{plotType="colorblock"}. 
-#'  Passed to \code{\link{phydataplot}} in \code{\link{ape}} package that is 
+#'  Passed to \code{\link[ape]{phydataplot}} in \pkg{ape} package that is
 #'  used to draw the color values of the clusters/samples next to the 
 #'  dendrogram. Options are 'none', 'below', or 'side'. (Note 'none' is only 
 #'  available for 'ape' package >= 4.1-0.6).
