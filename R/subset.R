@@ -13,7 +13,7 @@
 #'   \code{1:NCOL(x)}.
 #' @return \code{removeClusterings} returns a \code{ClusterExperiment} object,
 #'   unless all clusters are removed, in which case it returns a
-#'   \code{\link{SingleCellExperiment}} object.
+#'   \code{\link[SingleCellExperiment]{SingleCellExperiment}} object.
 #' @examples
 #' #load CE object
 #' data(rsecFluidigm)

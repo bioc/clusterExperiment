@@ -28,7 +28,7 @@
 #' @param ... arguments that are passed to from the \code{ClusterExperiment} 
 #'   version to the most basic numeric version.
 #' @details The input vector must be numeric clusters, but the external commands
-#'   that make the contrast matrix (e.g. \code{\link{makeContrasts}}) require 
+#'   that make the contrast matrix (e.g. \code{\link[limma]{makeContrasts}}) require
 #'   syntatically valid R names. For this reason, the names of the levels will 
 #'   be "X1" instead of "1". And negative values (if removeUnassigned=FALSE) will 
 #'   be "X.1","X.2", etc.
@@ -36,7 +36,7 @@
 #'\describe{
 #'\item{\code{contrastMatrix}}{ Contrast matrix, the form of which
 #'depends on \code{outputType}. If \code{outputType=="limma"}, the result of
-#'running \code{\link{makeContrasts}}: a matrix with number of columns equal to
+#'running \code{\link[limma]{makeContrasts}}: a matrix with number of columns equal to
 #'the number of contrasts, and rows equal to the number of levels of the factor
 #'that will be fit in a linear model.} 
 #'\item{\code{contrastNames}}{A vector of
