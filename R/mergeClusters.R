@@ -126,7 +126,7 @@
 #'   link up the internal nodes of the sample dendrogram to the internal nodes
 #'   of the cluster dendrogram when the unassigned samples are intermixed.
 #' @return If `x` is a matrix, it returns (invisibly) a list with elements
-#'\itemize{ 
+#'\describe{
 #'\item{\code{clustering}}{ a vector of length equal to ncol(x) giving
 #'the integer-valued cluster ids for each sample. "-1" indicates the sample was
 #'not clustered.} 
@@ -755,7 +755,7 @@ setMethod(
 #' @rdname mergeClusters
 #' @return \code{nodeMergeInfo} returns information collected about the nodes
 #'   during merging as a data.frame with the following entries:
-#' \itemize{ \item{\code{Node}}{ Name of the node}
+#' \describe{ \item{\code{Node}}{ Name of the node}
 #' \item{\code{Contrast}}{The
 #' contrast compared at each node, in terms of the cluster ids}
 #' \item{\code{isMerged}}{ Logical as to whether samples from that node which were

@@ -59,7 +59,7 @@
 #'   the package.
 #' @return If \code{returnValue="object"}, a \code{ClusterExperiment} object.
 #' @return If \code{returnValue="list"} a list with elements:
-#' \itemize{ \item{\code{objectUpdate}}{object, potentially updated if had to
+#' \describe{ \item{\code{objectUpdate}}{object, potentially updated if had to
 #' calculate dimensionality reduction or filtering statistic}
 #' \item{\code{dataMatrix}}{the reduced dimensional matrix with the samples in
 #' columns, features in rows} }

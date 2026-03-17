@@ -33,7 +33,7 @@
 #'   be "X1" instead of "1". And negative values (if removeUnassigned=FALSE) will 
 #'   be "X.1","X.2", etc.
 #' @return List with components:
-#'\itemize{ 
+#'\describe{
 #'\item{\code{contrastMatrix}}{ Contrast matrix, the form of which
 #'depends on \code{outputType}. If \code{outputType=="limma"}, the result of
 #'running \code{\link{makeContrasts}}: a matrix with number of columns equal to

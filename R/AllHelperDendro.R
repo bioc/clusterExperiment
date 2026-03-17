@@ -27,7 +27,7 @@
 #'   labels is so as to not duplicate storage of the names, see below
 #'   descriptions for where to save user-defined names.
 #' @section Cluster Hierarchy
-#' @details \itemize{ 
+#' @details \describe{
 #' \item{Labels}{The cluster dendrogram can only have labels
 #'   on the \emph{internal} nodes. Labels on the internal nodes of the cluster
 #'   dendrogram can be set by the user (the function \code{nodeLabels<-} is
@@ -39,7 +39,7 @@
 #' \item{Data}{ The cluster hierarchy must have
 #'   data stored with it that has the following columns (additional ones are
 #'   allowed):
-#'   \itemize{ 
+#'   \describe{
 #'   \item{NodeId}{The permanent node id for the node. Must
 #'   be of the format "NodeIdX" where "X" is a integer.} 
 #'   \item{Position}{The
@@ -56,7 +56,7 @@
 #'   where "X" is the internal cluster id (see \code{\link{clusterLegend}}} } }
 #'   }
 #' @section Sample Hierarchy
-#' @details \itemize{
+#' @details \describe{
 #' \item{Labels}{The sample dendrogram is not allowed to have ANY labels. The
 #' names for those nodes that correspond to the cluster hierarchy will be pulled
 #' from the names in the cluster hierarchy for plotting, etc. and should be set
@@ -65,7 +65,7 @@
 #' \item{Data}{ 
 #' The cluster hierarchy must have data stored with it that has the following
 #' columns (additional ones are allowed):
-#'  \itemize{
+#'  \describe{
 #'   \item{NodeId}{For those nodes that correspond to a node in the cluster
 #'   hierarchy, should have its permanent node id in this column. Other nodes
 #'   should be NA.}

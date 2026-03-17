@@ -100,7 +100,7 @@
 #'   \code{subsampleArgs} are not allowed. See \code{\link{clusterSingle}} for
 #'   these explanations.
 #' @return A list with values
-#' \itemize{
+#' \describe{
 #'
 #' \item{\code{clustering}}{ a vector of length equal to nrows(x) giving the
 #' integer-valued cluster ids for each sample. The integer values are assigned

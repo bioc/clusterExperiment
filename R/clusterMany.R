@@ -121,7 +121,7 @@
 #'   primaryClusteringIndex.
 #'
 #' @return If \code{run=FALSE} a list with elements:
-#' \itemize{
+#' \describe{
 #'   \item{\code{paramMatrix}}{ a matrix giving the parameters of each
 #'   clustering, where each column is a possible parameter set by the user and
 #'   passed to \code{\link{clusterSingle}} and each row of paramMatrix
