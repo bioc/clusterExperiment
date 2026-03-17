@@ -540,6 +540,7 @@ setMethod(
 #' @export
 #' @inheritParams subset
 #' @inheritParams ClusterExperiment-methods
+#' @param object A ClusterExperiment object.
 #' @aliases renameClusters,ClusterExperiment,character-method
 #' @examples
 #' #create CE object
