@@ -86,10 +86,10 @@ If x is a matrix, a list with values \describe{
  
  \item{\code{percentageShared}}{ a nSample x nSample matrix of the percent 
  co-occurance across clusters used to find the final clusters. Percentage is 
- out of those not '-1'} \item{\code{noUnassignedCorrection}{ a vector of 
- cluster assignments before samples were converted to '-1' because had 
- >\code{propUnassigned} '-1' values (i.e. the direct output of the 
- \code{mainClustering} output.)}} }
+ out of those not '-1'} \item{\code{noUnassignedCorrection}}{ a vector of
+ cluster assignments before samples were converted to '-1' because had
+ >\code{propUnassigned} '-1' values (i.e. the direct output of the
+ \code{mainClustering} output.)} }
 
 If x is a \code{\link{ClusterExperiment}}, a
  \code{\link{ClusterExperiment}} object, with an added clustering of
