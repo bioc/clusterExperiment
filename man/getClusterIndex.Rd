@@ -49,7 +49,7 @@ If \code{whichClusters} is numeric, then the function just returns the
   ordering for the clusterings (as relevant).
 
 If \code{whichClusters} is a character value, then it the function attempts to use the character value to identify the clustering. The value of the argument is first matched against a set of "special" values: "workflow","all","none","primaryCluster","dendro" using the argument \code{\link{match.arg}}, which does partial matching. If whichClusters is a vector of values, only the first value of the vector is matched against these values and if it matches, the remaining values are ignored.  If it matches one of these values, then the cluster indices are given as follows.
-\itemize{
+\describe{
  \item{"workflow"}{all clusterings in the current workflow (see \code{\link{workflowClusters}})}
  \item{"all"}{all clusterings, with the primary clustering put first.}
  \item{"none"}{no clusterings}
