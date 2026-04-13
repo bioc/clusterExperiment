@@ -112,11 +112,11 @@ test_that("reduce and filter work with hdf5",{
 
 	#add pca to it
 	nDim<-3
-	expect_message(dr3<-makeReducedDims(hdfObj,reducedDims="PCA",maxDims=nDim), "using unknown matrix fallback for ' HDF5ArraySeed '")
+	expect_no_error(dr3<-makeReducedDims(hdfObj,reducedDims="PCA",maxDims=nDim))#, "using unknown matrix fallback for ' HDF5ArraySeed '")
 	expect_equal(defaultNDims(dr3,"PCA"),3)
 
-	#test directly on hdf5
-	expect_message(dr3<-makeReducedDims(assay(hdfObj),reducedDims="PCA",maxDims=nDim), "using unknown matrix fallback for ' HDF5ArraySeed '")
+	#test directly on hdf5 -- message keeps changing and not consistent on different machines
+	expect_no_error(dr3<-makeReducedDims(assay(hdfObj),reducedDims="PCA",maxDims=nDim)) #, "using unknown matrix fallback for ' HDF5ArraySeed '")
 
 
 	#test transformation -- need make CE object
